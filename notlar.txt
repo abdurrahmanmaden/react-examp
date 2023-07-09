@@ -1,0 +1,19 @@
+import './App.css';
+
+function App() {
+   const ad="ALİ";
+    return ( 
+        <div className = "App">
+        
+        /* <h1>Merhaba {ad.toLowerCase()}</h1>*/
+        
+        <h1>10+10</h1>
+        <h1>10+10 = {10+10}</h1>
+        <h1>{"mehmet".toUpperCase()}</h1>
+        
+        </div>
+    );
+   
+}
+
+export default App;
